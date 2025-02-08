@@ -1,0 +1,27 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+    --main-text-color:  #757575;
+    --title-color: #212121;
+    --hover-color: #2196f3;
+   --button-bg-color: #2196f3;
+   --bg-color: #2f303a;
+  }
+
+  .logo {
+    color:#2196f3;
+  }
+
+  .span {
+    color:#000;
+  }
+  .menu {
+
+  }
+  .button {
+    background-color: #2f303a;
+  }
+  selection [id] {
+    
+  }
+  background-color: rgd 
