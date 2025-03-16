@@ -65,8 +65,18 @@
     color: var(--main-text-color);
   }
 
-  /*////////////*/
-  
+
+  :root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+    --main-text-color:  #757575;
+    --title-color: #212121;
+    --hover-color: #2196f3;
+   --button-bg-color: #2196f3;
+   --bg-color: #2f303a;
+   --team-title-color: #f5f4fa;
+  }
+
   .logo {
     color:#2196f3;
   }
@@ -77,38 +87,56 @@
   a:hover {
     color: #2196f3;
   }
+  .menu {
+    color: var(--title-color);
+    font-family: "Raleway";
+  }
+  .menu-link {
+   color: var(--main-text-color)
+    
+  }
   .button-portfolio:hover {
-    color:#f5f4fa;
-    background-color: #2196f3;
+    color: #2196f3;
   }
   .button-portfolio {
-    background-color: #f5f4fa;
+    background-color: #2196f3;
+    color: #f5f4fa;
   }
-.menu {
-  color: var(--title-color);
+  section[id] {
+    background-color: var(--bg-color);
+  }
+  .team-info {
+    background-color: var(--team-title-color);
+  } 
+  .team {
+    color: var(--title-color)
+  }
+  .text-button {
+    width: 696px;
+    height: 120px;
+    color:#fff;
+    
+  }
+  .mein-text {
+    color: var(--main-text-color);
+  }
+  .footer {
+    background-color: var(--bg-color);
+  }
+  .logo-footer {
+    color:#2196f3;
+  }
+  .span-footer {
+    color: #fff;
+  }
+  .footer-text {
+    color: #fff;
+  }
+  .futer-link {
+    color: var(--main-text-color);
+  }
 
-}
-.menu-link {
- color: var(--main-text-color)
-}
-.mein-text {
-  color: var(--main-text-color);
-}
-
-
-.footer {
-  background-color: var(--bg-color);
-}
-.logo-footer {
-  color:#2196f3;
-}
-.span-footer {
-  color: #fff;
-}
-.footer-text {
-  color: #fff;
-}
-.futer-link {
-  color: var(--main-text-color);
-}
+  
+  
+    
   
