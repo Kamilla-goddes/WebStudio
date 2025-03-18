@@ -66,16 +66,6 @@
   }
 
 
-  :root {
-    --font-family: "Roboto", sans-serif;
-    --second-family: "Raleway", sans-serif;
-    --main-text-color:  #757575;
-    --title-color: #212121;
-    --hover-color: #2196f3;
-   --button-bg-color: #2196f3;
-   --bg-color: #2f303a;
-   --team-title-color: #f5f4fa;
-  }
 
   .logo {
     color:#2196f3;
@@ -96,11 +86,12 @@
     
   }
   .button-portfolio:hover {
-    color: #2196f3;
+    color: #f5f4fa;
+    background-color: #2196f3;
   }
   .button-portfolio {
-    background-color: #2196f3;
-    color: #f5f4fa;
+    background-color: #f5f4fa;
+    color: black;
   }
   section[id] {
     background-color: var(--bg-color);
