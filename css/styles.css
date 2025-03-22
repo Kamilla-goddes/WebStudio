@@ -99,10 +99,10 @@
   }
   .profession {
     font-family: "Roboto";
-    font-weight: 400;
     font-size: 16px;
-    letter-spacing: 0.03em;
+   letter-spacing: 0.03em;
     text-align: center;
+   color: #757575;
   }
   .mein-text {
     color: var(--main-text-color);
@@ -145,7 +145,7 @@
     font-family: "Roboto";
     font-weight: 400;
     font-size: 14px;
-    line-height: 171%;
+    line-height:171%;
     letter-spacing: 0.03em;
   }
   .futer-link {
@@ -153,16 +153,15 @@
     font-family: "Roboto";
     font-weight: 400;
     font-size: 14px;
-    line-height: 171%;
+    line-height:171%;
     letter-spacing: 0.03em;
   }
 
-
+  /*////////////////////////////////////////////////////*/
 
   .logo {
     color:#2196f3;
   }
-
   .span {
     color:#000;
   }
@@ -174,8 +173,7 @@
     font-family: "Raleway";
   }
   .menu-link {
-   color: var(--main-text-color)
-    
+   color: var(--main-text-color);  
   }
   .button-portfolio:hover {
     color: #f5f4fa;
