@@ -8,6 +8,9 @@
    --bg-color: #2f303a;
    --team-title-color: #f5f4fa;
   }
+  body {
+    font-family: var(--font-family);
+   }
 
   .logo {
     color:#2196f3;
@@ -78,7 +81,7 @@
     font-family: "Roboto";
     font-weight: 900;
     font-size: 44px;
-    line-height: 136%;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
@@ -109,7 +112,7 @@
     font-family: "Roboto";
     font-weight: 400;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.71;
     letter-spacing: 0.03em;
   }
   .title {
@@ -145,36 +148,23 @@
     font-family: "Roboto";
     font-weight: 400;
     font-size: 14px;
-    line-height:171%;
+    line-height:1.71;
     letter-spacing: 0.03em;
   }
-  .futer-link {
+  .footer-link {
     color: var(--main-text-color);
     font-family: "Roboto";
     font-weight: 400;
     font-size: 14px;
-    line-height:171%;
+    line-height:1.71;
     letter-spacing: 0.03em;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6)
   }
 
   /*////////////////////////////////////////////////////*/
 
-  .logo {
-    color:#2196f3;
-  }
-  .span {
-    color:#000;
-  }
-  a:hover {
-    color: #2196f3;
-  }
-  .menu {
-    color: var(--title-color);
-    font-family: "Raleway";
-  }
-  .menu-link {
-   color: var(--main-text-color);  
-  }
+  
   .button-portfolio:hover {
     color: #f5f4fa;
     background-color: #2196f3;
@@ -182,6 +172,7 @@
   .button-portfolio {
     background-color: #f5f4fa;
     color: black;
+    line-height: 1.62;
   }
   section[id] {
     background-color: var(--bg-color);
@@ -193,29 +184,22 @@
     color: var(--title-color)
   }
   .text-button {
+    line-height: 1.36;
     width: 696px;
     height: 120px;
     color:#fff;
     
   }
+  .main-title {
+    font-family: var(--font-family);
+    line-height: 1.87;
+  }
+  
   .mein-text {
     color: var(--main-text-color);
+    line-height: 2;
   }
-  .footer {
-    background-color: var(--bg-color);
-  }
-  .logo-footer {
-    color:#2196f3;
-  }
-  .span-footer {
-    color: #fff;
-  }
-  .footer-text {
-    color: #fff;
-  }
-  .futer-link {
-    color: var(--main-text-color);
-  }
+  
 
   
   
