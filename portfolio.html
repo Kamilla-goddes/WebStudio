@@ -7,10 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header-portfolio">
+        <div class="container">
         <a class="logo" href="/">Web<span class="span">Studio</span></a>
         <nav class="nav">
             <ul class="menu-list">
@@ -33,10 +36,11 @@
                     <a class="menu-link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
+        </div>
     </header>
     
-  <main class="main">
-<section class="portfolio">
+  <main class="main-portfolio">
+    <div class="container">
     <ul class="portfolio-list">
         <li class="portfolio-item">
             <button class="button-portfolio">Усі</button>
@@ -54,57 +58,78 @@
             <button class="button-portfolio">Маркетинг</button>
         </li>
     </ul>
+    </div>
+    <div class="container">
     <ul class="carts-list">
         <li class="carts-item">
+            <div class="carts-card">
             <img src="./image/img.png" alt="ноутбук" width="370" height="294" class="carts-image">
             <h2  class="main-title">Технокряк</h2>
             <p class="mein-text">Веб-сайт</p>
+            </div>
         </li>
         <li class="carts-item">
+            <div class="carts-card">
             <img src="./image/img(1).png" alt="баскетболісти" width="370" height="294"  class="carts-image">
             <h2  class="main-title">Постер New Orlean vs Golden Star</h2>
             <p class="mein-text">Дизайн</p>
+            </div>
         </li>
         <li class="carts-item">
+            <div class="carts-card">
             <img src="./image/img(2).png" alt="логотип ресторану" width="370" height="294"  class="carts-image">
             <h2  class="main-title">Ресторан Seafood</h2>
             <p class="mein-text">Додаток</p>
+        </div>
         </li>
         <li class="carts-item">
+            <div class="carts-card">
             <img src="./image/img(3).png" alt="навушники" width="370" height="294"  class="carts-image">
             <h2  class="main-title">Проєкт Prime</h2>
             <p class="mein-text">Маркетинг</p>
+        </div>
         </li>
         <li class="carts-item">
+            <div class="carts-card">
             <img src="./image/img(4).png" alt="коробки" width="370" height="294"  class="carts-image">
             <h2  class="main-title">Проєкт Boxes</h2>
             <p class="mein-text">Додаток</p>
+        </div>
         </li>
         <li class="carts-item">
+            <div class="carts-card">
             <img src="./image/img(5).png" alt="комп'ютер" width="370" height="294"  class="carts-image">
             <h2  class="main-title">Inspiration has no Borders</h2>
             <p class="mein-text">Веб-сайт</p>
+        </div>
         </li>
         <li class="carts-item">
+            <div class="carts-card">
             <img src="./image/img(6).png" alt="книга" width="370" height="294"  class="carts-image">
             <h2  class="main-title">Видання Limited Edition</h2>
             <p class="mein-text">Дизайн</p>
+        </div>
         </li>
         <li class="carts-item">
+            <div class="carts-card">
             <img src="./image/img(7).png" alt="етикетка" width="370" height="294"  class="carts-image">
            <h2  class="main-title">Проєкт LAB</h2>
            <p class="mein-text">Маркетинг</p>
+        </div>
         </li>
         <li class="carts-item">
+            <div class="carts-card">
            <img src="./image/img(8).png" alt="робота на ноутбуці" width="370" height="294"  class="carts-image">
            <h2 class="main-title">Growing Business</h2>
            <p class="mein-text">Додаток</p>
+        </div>
         </li>
         </ul>
-</section>
+    </div>
   </main> 
 
-  <footer class="footer">  
+  <footer class="footer">
+    <div class="container"> 
     <a class="logo-footer" href="/">Web<span class="span-footer">Studio</span></a>
     <address class="footer-addres">
         <p class="footer-text">м. Київ, пр-т Лесі Українки, 26 </p>
@@ -117,6 +142,7 @@
     </li>
         </ul>
     </address>
+</div> 
         </footer>
 </body>
 </html>
