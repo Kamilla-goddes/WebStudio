@@ -130,13 +130,41 @@ a:hover {
 }
 .info-list {
   display: flex;
-  width: 1170px;
-  margin: 0 auto;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 94px;
 }
+
 .info-item {
-  align-items: center;
-  margin: 0 auto;
+  width: 270px;
 }
+
+.info-item::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section1::before {
+  background-image: url("../image/satelliteDish.png");
+}
+
+.section2::before {
+  background-image: url("../image/watch.png");
+}
+
+.section3::before {
+  background-image: url("../image/laptop.png");
+}
+
+.section4::before {
+  background-image: url("../image/astronaut.png");
+}
+
 .text-button {
   padding-top: 200px;
   width: 696px;
@@ -157,7 +185,7 @@ a:hover {
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 94px;
+  padding-top: 30px;
   gap: 30px;
 }
 .name {
@@ -398,7 +426,7 @@ section[id] {
   text-align: left;
 }
 
-.mein-text {
+.portfolio-text {
   margin-left: 24px;
   font-size: 16px;
   color: #757575;
