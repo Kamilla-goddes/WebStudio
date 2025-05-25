@@ -150,19 +150,19 @@ a:hover {
 }
 
 .section1::before {
-  background-image: url("../image/SatelliteDish.png");
+  background-image: url("../image/satelliteDish.png");
 }
 
 .section2::before {
-  background-image: url("../image/Watch.png");
+  background-image: url("../image/watch.png");
 }
 
 .section3::before {
-  background-image: url("../image/Laptop.png");
+  background-image: url("../image/laptop.png");
 }
 
 .section4::before {
-  background-image: url("../image/Astronaut.png");
+  background-image: url("../image/astronaut.png");
 }
 
 .text-button {
