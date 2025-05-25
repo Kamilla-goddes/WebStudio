@@ -150,19 +150,19 @@ a:hover {
 }
 
 .section1::before {
-  background-image: url("../image/satelliteDish.png");
+  background-image: url("../image/SatelliteDish.png");
 }
 
 .section2::before {
-  background-image: url("../image/watch.png");
+  background-image: url("../image/Watch.png");
 }
 
 .section3::before {
-  background-image: url("../image/laptop.png");
+  background-image: url("../image/Laptop.png");
 }
 
 .section4::before {
-  background-image: url("../image/astronaut.png");
+  background-image: url("../image/Astronaut.png");
 }
 
 .text-button {
@@ -252,6 +252,8 @@ a:hover {
   padding: 0;
   align-items: center;
   border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
 }
 /*///////////////////////////////////FOOTER///////////////////////////////*/
 .footer {
@@ -401,7 +403,10 @@ section[id] {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-
+}
+.carts-item:hover {
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
 }
 .main-title {
   margin-top: 20px;
