@@ -246,7 +246,7 @@ a:hover {
 }
 .team-card {
   width: 270px;
-  height: 368px;
+  height: 428px;
   background-color: white;
   text-align: center;
   padding: 0;
@@ -440,3 +440,53 @@ section[id] {
   border-top: none;
   padding-bottom: 20px;
 }
+
+/*//////////////////////////*/
+
+.icons-list {
+ display: flex;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ justify-content: center;
+ gap: 10px;
+ padding-top: 6px;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon:hover {
+  background-color: #2196f3;
+}
+
+.icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.icon:hover svg path {
+  fill: white;
+}
+
+/* .contact-email:hover .icon {
+  fill: #2196F3;
+}
+
+
+
+.contacst-item:hover {
+  color: #2196F3;
+
+} */
