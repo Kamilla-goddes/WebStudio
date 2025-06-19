@@ -411,14 +411,14 @@ section[id] {
   max-width: 1170px;
 }
 
-.carts-item {
+.carts-block {
   flex-basis: calc((100% - 60px) / 3);
   height: 404px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
 }
-.carts-item:hover {
+.carts-block:hover {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   background: #fff;
 }
@@ -454,6 +454,7 @@ section[id] {
   border-top: none;
   padding-bottom: 20px;
 }
+
 
 /*//////////////////////////*/
 
