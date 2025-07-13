@@ -676,8 +676,12 @@ color: #fff;
   width: 528px;
   height: 581px;
   background-color: white;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
   border-radius: 4px;
+  transition:
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-button {
   width: 30px;
@@ -697,14 +701,15 @@ color: #fff;
   fill: #2196f3;
 }
 .backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 1;
-  z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    z-index: 10;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-text {
   font-family: var(--font-family);
@@ -865,6 +870,10 @@ textarea {
   border: solid #fff;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
+}
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.1);
+  opacity: 0.1;
 }
 
 /*//////////////////////////*/
@@ -1041,7 +1050,7 @@ letter-spacing: 0.03em;
   height: 294px;
   background: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
-  transition: transform 500ms ease-in;
+  transition: transform 250ms ease-in;
   padding: 63px 24px;
 }
 
@@ -1078,7 +1087,7 @@ font-size: 14px;
 letter-spacing: 0.02em;
 color: #2196f3;
 }
-
+/*/////////////////////ANIMATION///////////////////////*/
 .das {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1126,7 +1135,6 @@ color: #2196f3;
   color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .menu:hover,
 .menu:focus {
   color: #2196f3;
@@ -1135,7 +1143,6 @@ color: #2196f3;
 .button-portfolio {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .button-portfolio:hover,
 .button-portfolio:focus {
   background-color: #2196f3;
